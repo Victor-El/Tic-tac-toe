@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_selectoptions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#8b4513"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.tic_tac_toe.selectoptions">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#fdd600">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P1 VS P2"
+            android:background="@drawable/view2"
+            android:textColor="#8b4513"
+            android:onClick="gochoice"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textSize="40sp"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY WITH COMPUTER"
+            android:background="@drawable/view2"
+            android:textColor="#8b4513"
+            android:textStyle="bold"
+            android:onClick="gocom"
+            android:fontFamily="casual"
+            android:textSize="40sp"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY 5 BY 5 WITH COMPUTER"
+            android:background="@drawable/view2"
+            android:textColor="#8b4513"
+            android:textStyle="bold"
+            android:onClick="gofive"
+            android:fontFamily="casual"
+            android:textSize="40sp"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
